@@ -138,7 +138,7 @@ main {
 #trusted-by-section {
     width: 100%;
     text-align: center;
-    padding-bottom: 34px;
+    padding-bottom: 100px;
 }
 
 .trusted-by-heading {
@@ -184,23 +184,19 @@ main {
 
 
 
-#features-section {
-    height: 715px;
-    background: linear-gradient(180deg,
-            #1b1912 0%,
-            #14120b 100%);
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    border-radius: 6px;
-}
+#features-section {}
 
 
 .features-container {
-    height: 100%;
-    background-color: transparent;
+    height: 715px;
+    background-color: #1B1912;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 40px;
     align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 6px;
+    margin-bottom: 60px;
 }
 
 /* Left: 4 columns */
@@ -245,8 +241,8 @@ main {
     grid-column: span 8;
     position: relative;
     padding: 16px;
-    background: linear-gradient(180deg, #1b1912 0%, #14120b 100%);
     border-radius: 6px;
+    background-color: transparent;
 }
 
 /* Main image */
@@ -259,7 +255,7 @@ main {
 }
 
 /* Top image (smaller) */
-.top-img {
+.top-img-section-1 {
     position: absolute;
     top: 7.4%;
     left: 51.9%;
@@ -270,4 +266,55 @@ main {
     z-index: 2;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 6px;
+}
+
+
+
+.top-img-section-2 {
+    position: absolute;
+    top: 7.4%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 78%;
+    height: 67%;
+    opacity: 0.95;
+    z-index: 2;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+}
+
+.main-img-section-3 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    border-radius: 6px;
+}
+
+
+
+.top-img-section-3-down {
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    top: 7.4%;
+    left: 40%;
+    transform: translateX(-50%);
+    opacity: 0.95;
+    z-index: 2;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.top-img-section-3-up {
+    width: 65%;
+    height: 58%;
+    position: absolute;
+    top: 34%;
+    left: 60%;
+    transform: translateX(-50%);
+    opacity: 0.95;
+    z-index: 3;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
 }
