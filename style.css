@@ -16,13 +16,17 @@
 body {
     max-width: 1380px;
     margin: 0px auto;
+    position: relative;
 }
 
 header {
     padding: 14px 60px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
-#nav-bar{
+#nav-bar {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -49,7 +53,7 @@ a {
     color: #CCCCCC;
 }
 
-.nav-child{
+.nav-child {
     cursor: pointer;
 }
 
@@ -73,12 +77,14 @@ button {
     background-color: #212121;
 }
 
-#download-btn, #get-started-btn {
+#download-btn,
+#get-started-btn {
     background-color: var(--text-color-white);
     color: var(--accent-color);
 }
 
-#download-btn:hover, #get-started-btn:hover {
+#download-btn:hover,
+#get-started-btn:hover {
     background-color: #CCCCCC;
 }
 
@@ -86,42 +92,42 @@ button {
 
 
 
-main{
+main {
     color: var(--text-color-white);
     padding: 14px 36px;
 }
 
 
-#home-section{
+#home-section {
     padding-top: 112px;
-    padding-left:20px;
-    padding-right:20px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 68px;
     width: 100%;
 }
 
-#home-section-text-content{
+#home-section-text-content {
     max-width: 520px;
     margin-bottom: 56px;
 }
 
-.home-section-para{
+.home-section-para {
     margin-bottom: 24px;
     font-size: 26px;
     font-weight: 80;
     line-height: 1.3;
 }
 
-#get-started-btn{
+#get-started-btn {
     padding: 12px 24px;
     font-size: medium;
 }
 
-#get-started-btn i{
+#get-started-btn i {
     background-color: transparent;
 }
 
-#hero-image{
+#hero-image {
     border-radius: 8px;
 }
 
@@ -132,7 +138,7 @@ main{
 #trusted-by-section {
     width: 100%;
     text-align: center;
-    padding-bottom:  34px;
+    padding-bottom: 34px;
 }
 
 .trusted-by-heading {
@@ -154,11 +160,9 @@ main{
 /* Card */
 .logo-box {
     height: 96px;
-    background: linear-gradient(
-        180deg,
-        #1b1912 0%,
-        #14120b 100%
-    );
+    background: linear-gradient(180deg,
+            #1b1912 0%,
+            #14120b 100%);
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 6px;
 
@@ -180,13 +184,11 @@ main{
 
 
 
-#features-section{
+#features-section {
     height: 715px;
-    background: linear-gradient(
-        180deg,
-        #1b1912 0%,
-        #14120b 100%
-    );
+    background: linear-gradient(180deg,
+            #1b1912 0%,
+            #14120b 100%);
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 6px;
 }
@@ -198,13 +200,13 @@ main{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 40px;
-    align-items: center;    
+    align-items: center;
 }
 
 /* Left: 4 columns */
 .feature-text {
     background-color: transparent;
-    padding-left:14px;
+    padding-left: 14px;
     grid-column: span 4;
 }
 
@@ -234,7 +236,7 @@ main{
 }
 
 .feature-link:hover {
-    color:#d25216;
+    color: #d25216;
 }
 
 /* Right: 8 columns */
@@ -269,7 +271,3 @@ main{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 6px;
 }
-
-
-
-
