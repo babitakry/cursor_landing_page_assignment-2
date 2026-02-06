@@ -82,6 +82,10 @@ button {
     background-color: #CCCCCC;
 }
 
+
+
+
+
 main{
     color: var(--text-color-white);
     padding: 14px 36px;
@@ -120,3 +124,55 @@ main{
 #hero-image{
     border-radius: 8px;
 }
+
+
+
+
+
+#trusted-by-section {
+    text-align: center;
+    padding: 14px 20px;
+}
+
+.trusted-by-heading {
+    color: #ECEBEB;
+    font-size: 0.95rem;
+    font-weight: 400;
+    margin-bottom: 36px;
+}
+
+
+#trusted-by-logos {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 16px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Card */
+.logo-box {
+    height: 96px;
+    background: linear-gradient(
+        180deg,
+        #1b1912 0%,
+        #14120b 100%
+    );
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background 0.2s ease, border 0.2s ease;
+}
+
+
+
+.logo-box img {
+    max-height: 38px;
+    width: auto;
+    opacity: 0.9;
+}
+
