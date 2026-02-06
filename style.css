@@ -184,7 +184,9 @@ main {
 
 
 
-#features-section {}
+#features-section {
+    margin-bottom: 80px;
+}
 
 
 .features-container {
@@ -317,4 +319,79 @@ main {
     z-index: 3;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 8px;
+}
+
+#feature-card-section {
+    width: 100%;
+
+}
+
+#feature-card-section h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.6rem;
+    font-weight: 500;
+    margin-bottom: 64px;
+}
+
+
+
+.card-container {
+    max-width: 100%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+
+.card {
+    background: linear-gradient(
+        180deg,
+        #1b1912 0%,
+        #14120b 100%
+    );
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 6px;
+    padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 220px;
+    gap: 34px;
+}
+
+
+.card p {
+    background-color: transparent;
+    color: #cfcfcf;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Footer */
+.card-foot {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.card-foot img {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+}
+
+.card-foot .name {
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.card-foot .role {
+    color: #9a9a9a;
+    font-size: 0.8rem;
 }
