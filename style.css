@@ -1,0 +1,122 @@
+:root {
+    --text-color-white: #EDEBEB;
+    --gray-color: #3E3E37;
+    --accent-color: #13120A;
+    --btn-hover-color: #ECECEC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--accent-color);
+}
+
+body {
+    max-width: 1380px;
+    margin: 0px auto;
+}
+
+header {
+    padding: 14px 60px;
+}
+
+#nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #14120B;
+    color: var(--text-color-white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#nav-center-button-container {
+    display: flex;
+    gap: 30px;
+}
+
+
+a {
+    color: var(--text-color-white);
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: 200;
+}
+
+#nav-center-button-container a:hover {
+    color: #CCCCCC;
+}
+
+.nav-child{
+    cursor: pointer;
+}
+
+button {
+    background-color: #333;
+    box-shadow: unset;
+    border: 0.5px solid white;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+#sign-in-btn {
+    border: none;
+    background-color: var(--accent-color);
+    border: 1px solid var(--gray-color);
+}
+
+#sign-in-btn:hover {
+    background-color: #212121;
+}
+
+#download-btn, #get-started-btn {
+    background-color: var(--text-color-white);
+    color: var(--accent-color);
+}
+
+#download-btn:hover, #get-started-btn:hover {
+    background-color: #CCCCCC;
+}
+
+main{
+    color: var(--text-color-white);
+    padding: 14px 36px;
+}
+
+
+#home-section{
+    padding-top: 112px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom: 68px;
+    width: 100%;
+}
+
+#home-section-text-content{
+    max-width: 520px;
+    margin-bottom: 56px;
+}
+
+.home-section-para{
+    margin-bottom: 24px;
+    font-size: 1.6rem;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+#get-started-btn{
+    padding: 12px 24px;
+    font-size: medium;
+}
+
+#get-started-btn i{
+    background-color: transparent;
+}
+
+#hero-image{
+    border-radius: 8px;
+}
