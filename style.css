@@ -3,6 +3,7 @@
     --gray-color: #3E3E37;
     --accent-color: #13120A;
     --btn-hover-color: #ECECEC;
+    --max-width: 1160px;
 }
 
 * {
@@ -323,7 +324,7 @@ main {
 
 #feature-card-section {
     width: 100%;
-
+    padding: 68px 20px;
 }
 
 #feature-card-section h2 {
@@ -347,11 +348,9 @@ main {
 
 
 .card {
-    background: linear-gradient(
-        180deg,
-        #1b1912 0%,
-        #14120b 100%
-    );
+    background: linear-gradient(180deg,
+            #1b1912 0%,
+            #14120b 100%);
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 6px;
     padding: 24px;
@@ -394,4 +393,139 @@ main {
 .card-foot .role {
     color: #9a9a9a;
     font-size: 0.8rem;
+}
+
+
+
+#testimonials {
+    margin: 45px 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 34px;
+}
+
+#testimonials h2 {
+    font-size: 26px;
+    font-weight: 14;
+}
+
+.quote-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 10px;
+}
+
+.quote-card {
+    overflow: hidden;
+    border: 1px solid #201E18;
+    border-radius: 6px;
+    background-color: #1B1912;
+    padding: 16px 18px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote-card h3,
+p,
+a {
+    background: transparent;
+}
+
+.quote-card h3,
+a {
+    font-size: 16px;
+    font-weight: 6;
+}
+
+.quote-card a {
+    color: #F64E00;
+}
+
+.quote-card a:hover {
+    color: #d25216;
+}
+
+.quote-card p {
+    font-size: 16px;
+    font-weight: 4;
+    color: #999895;
+}
+
+.quote-card-image {
+    border-radius: 6px;
+    text-align: center;
+    object-fit: contain;
+}
+
+
+
+
+/* Changelog Section */
+.changelog {
+    padding: 68px 20px;
+}
+
+.changelog h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+
+.changelog-cards {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+
+.changelog-card {
+    background: #1B1912;
+    border-radius: 8px;
+    padding: 22px;
+    width: 320px;
+    min-height: 130px;
+    border: 1px solid #201E18;
+}
+
+.meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+    background: transparent;
+}
+
+.version {
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 999px;
+    padding: 2px 10px;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+.date {
+    font-size: 14px;
+    color: #a9a9a9;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: 0;
+    line-height: 1.4;
+    color: #E4E3E3;
+}
+
+.link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff6a3d;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
 }
