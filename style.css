@@ -440,11 +440,6 @@ main {
     gap: 20px;
 }
 
-.quote-card h3,
-p,
-a {
-    background: transparent;
-}
 
 .quote-card h3,
 a {
