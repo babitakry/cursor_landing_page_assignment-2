@@ -346,7 +346,7 @@ main {
 #feature-card-section h2 {
     text-align: center;
     color: #ffffff;
-    font-size: 2.6rem;
+    font-size: 36px;
     font-weight: 500;
     margin-bottom: 64px;
 }
@@ -364,9 +364,7 @@ main {
 
 
 .card {
-    background: linear-gradient(180deg,
-            #1b1912 0%,
-            #14120b 100%);
+    background-color: #1B1912;
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 6px;
     padding: 24px;
@@ -381,12 +379,11 @@ main {
 
 .card p {
     background-color: transparent;
-    color: #cfcfcf;
+    color: #ECEBEB;
     font-size: 0.95rem;
     line-height: 1.6;
 }
 
-/* Footer */
 .card-foot {
     display: flex;
     align-items: center;
@@ -457,6 +454,7 @@ a {
 
 .quote-card a {
     color: #F64E00;
+    text-decoration: none;
 }
 
 .quote-card a:hover {
