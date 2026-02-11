@@ -36,11 +36,11 @@ This project is a desktop-first landing page recreation inspired by the Cursor d
 
 ## Color Palette
 
--text-color-white: #EDEBEB;
--gray-color: #3E3E37;
--accent-color: #13120A;
--btn-hover-color: #ECECEC;
--font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+- text-color-white: #EDEBEB;
+- gray-color: #3E3E37;
+- accent-color: #13120A;
+- btn-hover-color: #ECECEC;
+- font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
 ---
 
