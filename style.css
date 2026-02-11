@@ -11,7 +11,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
 }
 
 body {
@@ -25,7 +25,8 @@ header {
     padding: 14px 60px;
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 3;
+    background-color: #14120B;
 }
 
 #nav-bar {
@@ -33,7 +34,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #14120B;
+    
     color: var(--text-color-white);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -44,11 +45,12 @@ header {
 }
 
 
-a {
+#nav-center-button-container a {
     color: var(--text-color-white);
     text-decoration: none;
-    font-size: smaller;
-    font-weight: 200;
+    font-size: 14px;
+    font-weight: 6 ;
+    color: #EDECEC;
 }
 
 #nav-center-button-container a:hover {
@@ -116,7 +118,7 @@ main {
 .home-section-para {
     margin-bottom: 24px;
     font-size: 26px;
-    font-weight: 80;
+    font-weight: 20;
     line-height: 1.3;
 }
 
@@ -667,18 +669,69 @@ a {
 
 
 
-.final-cta-section{
+.final-cta-section {
     background-color: #13120A;
     padding: 135px 20px;
 }
 
-.final-cta-container{
+.final-cta-container {
     margin: 0px 28px;
     text-align: center;
 }
 
-.final-cta-container h1{
+.final-cta-container h1 {
     margin: 0px 0px 23px;
     font-size: 65px;
     font-weight: 5;
+}
+
+
+
+
+
+.footer-links-section {
+    width: 100vw;
+    background-color: #1B1913;
+    padding: 68px 30px 30px;
+    margin-left: -66px;
+}
+
+.footer-links-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 80px;
+    padding: 0px 40px ;
+}
+
+/* Column Heading */
+.footer-col h4 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #9a9a9a;
+    margin-bottom: 16px;
+}
+
+/* Links */
+.footer-col a {
+    display: block;
+    font-size: smaller;
+    color: #D4D3D2;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+
+.footer-col a:hover {
+    color: #b4b3b3;
+
+}
+
+.footer-para{
+    padding: 0px 40px ;
+    margin: 64px 0px 0px;
+    color: #A5A4A2;
+}
+
+.footer-para span{
+    font-size: 14px;
+    font-weight: 3;
 }
