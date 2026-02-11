@@ -124,7 +124,7 @@ main {
 }
 
 #home-section-text-content {
-    max-width: 520px;
+    max-width: 540px;
     margin-bottom: 56px;
 }
 
@@ -484,7 +484,7 @@ a {
 }
 
 .changelog h2 {
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 500;
     margin-bottom: 32px;
 }
@@ -706,7 +706,7 @@ a {
     width: 100vw;
     background-color: #1B1913;
     padding: 68px 30px 30px;
-    margin-left: -66px;
+    margin: -32px;
 }
 
 .footer-links-grid {
